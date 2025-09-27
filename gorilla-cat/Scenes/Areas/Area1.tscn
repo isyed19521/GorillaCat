@@ -8,7 +8,7 @@ size = Vector2(1000, 100)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_go701"]
 size = Vector2(999, 100)
 
-[node name="World" type="Node2D"]
+[node name="Area1" type="Node2D"]
 
 [node name="Cat" parent="." instance=ExtResource("1_a02cp")]
 position = Vector2(568, 109)
