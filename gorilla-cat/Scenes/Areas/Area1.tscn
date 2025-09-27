@@ -1160,14 +1160,14 @@ texture = SubResource("ImageTexture_okbar")
 
 [node name="BeautifulMountainsLandscapePhoto" type="Sprite2D" parent="TileMap"]
 z_index = -4096
-position = Vector2(-11462, -52.99951)
+position = Vector2(-11705, -22.000004)
 scale = Vector2(4.8783336, 6.9850006)
 texture = SubResource("CompressedTexture2D_hh7q5")
 script = SubResource("GDScript_rc4xh")
 
 [node name="Sprite2D" type="Sprite2D" parent="TileMap/BeautifulMountainsLandscapePhoto"]
-position = Vector2(2501.264, 67.64487)
-scale = Vector2(1.0838268, 0.5280635)
+position = Vector2(2529.1426, 19.506077)
+scale = Vector2(1.0838268, 0.9360416)
 texture = ExtResource("4_3hjy1")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
