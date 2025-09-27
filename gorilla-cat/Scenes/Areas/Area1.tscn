@@ -1,9 +1,8 @@
-[gd_scene load_steps=11 format=3 uid="uid://ew0eu6t2o342"]
+[gd_scene load_steps=8 format=3 uid="uid://ew0eu6t2o342"]
 
 [ext_resource type="PackedScene" uid="uid://ckqbnptpd8606" path="res://Scenes/cat.tscn" id="1_cvlpi"]
 [ext_resource type="Texture2D" uid="uid://3ylw3eds48cs" path="res://Sprites/Pixel Art Tiles and Backgrounds - Mountains.png" id="2_8ky0i"]
 [ext_resource type="Texture2D" uid="uid://caofq1pwmt0aa" path="res://Sprites/Rock Pack - Multicolor/RockPack-Brown(vegetation).png" id="3_5pero"]
-[ext_resource type="Texture2D" uid="uid://i8vx0041rjxn" path="res://Scenes/Areas/images.jpeg" id="4_3hjy1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5pero"]
 texture = ExtResource("2_8ky0i")
@@ -1136,13 +1135,6 @@ sources/2 = SubResource("TileSetAtlasSource_3hjy1")
 
 [sub_resource type="ImageTexture" id="ImageTexture_okbar"]
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_hh7q5"]
-load_path = "res://.godot/imported/beautiful-mountains-landscape-photo.jpg-582fcc0982dafe948b1bfd396d42d2af.ctex"
-
-[sub_resource type="GDScript" id="GDScript_rc4xh"]
-script/source = "extends Sprite2D
-"
-
 [node name="Area1" type="Node2D"]
 position = Vector2(40, 38)
 
@@ -1157,18 +1149,6 @@ layer_0/tile_data = PackedInt32Array(1966080, 393216, 10, 2031616, 393216, 11, 1
 
 [node name="Sprite2D" type="Sprite2D" parent="TileMap"]
 texture = SubResource("ImageTexture_okbar")
-
-[node name="BeautifulMountainsLandscapePhoto" type="Sprite2D" parent="TileMap"]
-z_index = -4096
-position = Vector2(-11705, -22.000004)
-scale = Vector2(4.8783336, 6.9850006)
-texture = SubResource("CompressedTexture2D_hh7q5")
-script = SubResource("GDScript_rc4xh")
-
-[node name="Sprite2D" type="Sprite2D" parent="TileMap/BeautifulMountainsLandscapePhoto"]
-position = Vector2(2529.1426, 19.506077)
-scale = Vector2(1.0838268, 0.9360416)
-texture = ExtResource("4_3hjy1")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 
